@@ -10,10 +10,24 @@ LITERALS
      STRING LITERALS
          The text enclosed in quotes('') to form a string literals.
          A String Literal is a Sequence of characters surronded by quotes.
-         
-         These String Literals are catogirezed into 4, they are 
+         We can use both single, double or tripe quotes(''' '' ' ' '' ''')
+      
+         These String Literals are catogirezed below, they are 
              Single Line String
              Multii Lline String
              Raw String
              Unicode String
+             Character String
+        
+         Table for String Literals syntax
+             Single Line String         -       "hello world"
+             Multi Line String          -       '''can enter multiple lines'''
+             Raw String                 -       r"raw\n string"
+             Character                  -       "C"
+             unicode String             -       u"\u00dcnic\u00f6de",
+                                                u"\u0930\u093E\u901C\u0940\u0935"
+             
+             
+             
+             
           
