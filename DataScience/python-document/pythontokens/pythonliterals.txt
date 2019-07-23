@@ -1,0 +1,19 @@
+LITERALS
+    Literals are Data Items that have a fixed Values
+    Some of the Literals are as follows
+        1. String Literals
+        2. Numericals Literals
+        3. Boolean Literals
+        4. Special Literals
+        5. literals Collection
+     
+     STRING LITERALS
+         The text enclosed in quotes('') to form a string literals.
+         A String Literal is a Sequence of characters surronded by quotes.
+         
+         These String Literals are catogirezed into 4, they are 
+             Single Line String
+             Multii Lline String
+             Raw String
+             Unicode String
+          

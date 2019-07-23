@@ -1,0 +1,24 @@
+PYTHON TOKEN
+    The smallest individual unit in a program is known as token
+    python as following tokens:
+        Keywords
+        Identifiers(Names)
+        Literals
+        Operators
+
+IDENTIFIRES(NAMES):
+    These Names are the Unique name that assign and used to identify a variable, function, class or and object. It helps differentiating
+    one entity from anothe.
+    
+    Rules For Writing Identifiers
+        
+        Identifiers can be a combination of letter in lowercase(a to z) or uppercase(A - Z) or digits(0-9) or an undersscore(_).
+            Example:
+                Names like 
+                myClass, var_1 and print_this_to_screen.
+                
+        Keywords cannot be used as identifiers.
+        We cannot use special symbols like !, @, #, $, % etc.in our identifier.
+        idenifier can be any lenght.
+        
+     

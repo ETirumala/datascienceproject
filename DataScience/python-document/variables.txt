@@ -1,0 +1,143 @@
+PYTHON VARIABLES :
+    A variable is a memory address that can change and when the memory address cannot change then that variable is known as a constant.
+    variable is a name of the memory location where data is stored.
+    The space is allocated in memory when a variable is stored.
+    
+        Creating and Declaring a Variable
+        Re-declaring a Variable
+        Local Variable
+        Global Variable
+        Deleting a Variable
+        Concatenating Variables
+        Constants
+        
+CREATING VARIABLES:
+     variables are continers for storing data values. Variables are created by assigning a value to it.      
+        For Ex:
+            a = 10
+            b = 'priya'
+            c = 10.56
+            print(a)
+            print(b)
+            print(c)
+      
+      The assigned value can be any data type. variables do not need to be decleared with any particular type and can even change type           after they have been set.
+      
+        For Ex:
+            a = 10 # a is of type int
+            a = 'sp'# a is now type of str
+            print(a) # it will print updated value
+          
+      String variables can be decleared in single or double quotes.
+       
+            b = 'priya'
+            d = 'bm'
+            print(b,d)
+          
+VARIABLES NAMES:
+    variables can be shortname, Descriptive name.
+        For Ex:
+            short name (a,x,y,b)
+            descriptive(name, diname)
+
+RULES FOR PYTHON VARIABLES:
+    A variables name must start with name or the underscore but cannot start with number.
+        For Ex:
+            a = 'priya'
+            _a = 'bm'
+            1acb ='sp'
+            print(a)
+            print(_a)
+            print(1acb)
+            
+    Variables are Case-Sensitive 
+    
+        For Ex:
+            a = 'priya'
+            print(A)
+                It gives error 
+                ---------------------------------------------------------------------------
+                NameError                                 Traceback (most recent call last)
+                <ipython-input-9-4c13c990a2fb> in <module>
+                1 a = 'priya'
+                ----> 2 print(A)
+
+                NameError: name 'A' is not defined
+                
+           print(a)
+           
+     Python Variables are always assigned using the equal to sign followed by the value of the variable.
+         
+         
+
+ASSIGN VALUE TO MULTIPLE VARIABLES:
+    python allows you to assign multiple values in a single line.
+        For Ex:
+            a,b,c = 'priya','bm','sathya'
+            print(a,b,c)
+            
+            Output: priya bm sathya
+            
+    When we assign multiple values in a single line and if one value is missed it gives error.
+        For Ex:
+            a,b,c = 'priya','bm'
+            print(a,b,c)
+            
+        output :
+        
+        ---------------------------------------------------------------------------
+        ValueError                                Traceback (most recent call last)
+        <ipython-input-13-5b82fa2d0b26> in <module>
+        ----> 1 a,b,c = 'priya','bm'
+        2 print(a,b,c)
+
+        ValueError: not enough values to unpack (expected 3, got 2)
+        
+    Assigning Single value to multiple variables in one line 
+        For Ex:
+            x=y=z = 'sp'
+            print(x)
+            print(y)
+            print(z)
+        output:
+            sp
+            sp
+            sp
+
+OUTPUT VARIABLES:
+    print statement is unique word to give output. 
+       For Ex:
+           x='Awesome'
+           print("python is " +x)
+    + character to add a variable to another variable:
+        For Ex:
+            ='Python is'
+            y='Execllent programer'
+            _a = x + y
+            print(_a)
+            
+    For numbers, the + character works as a mathematical operator:
+        For Ex:
+            a = 10
+            b = 20
+            print(a+b)
+print multilines 
+    For Ex:
+        print(''' printing output as multiple lines 
+        what about the output variable''')
+
+LOCAL VARIABLES IN PYTHON
+    
+
+
+            
+    
+         
+            
+            
+            
+            
+            
+            
+            
+
