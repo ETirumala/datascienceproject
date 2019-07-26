@@ -72,6 +72,23 @@ LITERALS
               b: 10
           
               
+      Special Literal
+          Python contains one special literal i.e. None
+          None Literal represents absence of value.
+          We use it to specify to that field that is not created.
+          
+          Example
+          #Special Literal
+          
+          drink = "Available"
+          food = None
+          def menu(x):
+          if x == drink:
+          print(drink)
+           else:
+          print(food)
+          menu(drink)
+          menu(food)
           
              
              
