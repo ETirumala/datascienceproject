@@ -44,6 +44,20 @@ PYTHON PROGRAM STRUCTURE
           Function
               A function is a code that has a name and can it is reused by specifiing its name in the program, where needed.
               
+              eg: # Function
+                   drink = "water"
+                   food = "Eat"
+                   sit = "Table"
+                   def menu(x):
+                       if x == drink:
+                            print(drink);
+                            print("Prints only if conditon is TRUE");
+                        else:
+                            print(food);
+                            print("Prints only if condition is FALSE");
+                    print(sit);
+                    menu(drink)
+              
            
        
                     
