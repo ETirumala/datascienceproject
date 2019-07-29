@@ -1,0 +1,51 @@
+PYTHON PROGRAM STRUCTURE
+
+    Python program contains various components like:
+        a.Expressions
+        b.Statements
+        c.Comments
+        d.Function
+        e.Blocks and Indentation
+        
+        Expressions:
+            An Expression is any legal combination of symbols that represents a value
+            For eg:
+             a = 15
+             
+        Statements:
+            instructions that a python interpreter can execute are called statements.
+            
+            A statement is a programming instruction that does something i.e.,
+            some action takes place.
+            
+            a=10 ----------------------------------------------> These are
+            print(a); -----------------------------------------> Statements
+            
+        
+        Comments:
+            Comments are the additional redable infromation to clarify the source code.
+            Comments are ignored by the pyhton interpreter but it can be read by the programmer
+            comments in python begin with symbol # or '" . comments enclosed in triple quotes are called docstring.
+            
+            Single Line Comment:
+            
+            #(hash) Symbol is used  to start writting comment.
+            
+                # this is a comment
+                
+           Multi Line Comment :
+           
+           """ triple single qutoe or double code is used to write multiple line comment.
+               
+               ''' this is a 
+               multiple comment
+               line includes '''
+               
+          Function
+              A function is a code that has a name and can it is reused by specifiing its name in the program, where needed.
+              
+           
+       
+                    
+            
+     
