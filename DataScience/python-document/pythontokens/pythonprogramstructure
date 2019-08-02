@@ -57,6 +57,51 @@ PYTHON PROGRAM STRUCTURE
                             print("Prints only if condition is FALSE");
                     print(sit);
                     menu(drink)
+                    
+                    Output:
+                    Table
+                    water
+                    Prints only if conditon is TRUE
+            
+          Block and Indention
+              Blocks: A group of statements which are part of another statement or a function are called block or code block or suite in                   python.
+              
+              eg: # Function
+                   drink = "water"
+                   food = "Eat"
+                   sit = "Table"
+                   def menu(x):
+                       if x == drink:
+                            print(drink);
+                            print("Prints only if conditon is TRUE");
+                        else:
+                            print(food);
+                            print("Prints only if condition is FALSE");
+                    print(sit);
+                    menu(drink)
+                    
+                    Output:
+                    Table
+                    water
+                    Prints only if conditon is TRUE
+                    
+                    
+              Indentation
+                  . python uses indentation to create blocks of code
+                  . A Code block starts with indentation and ends with the first unindented line.
+                  . Generally four whitespaces are used for indentation and is preffered over tabs
+                      c = a+b
+                      if c<50:
+                          print("less than 50");
+                          b=b*2
+                          a=a+10
+                      else:
+                          print("greater than 50");
+                          b=b*2
+                          a=a+10
+              
+              
+        
               
            
        

@@ -1,0 +1,23 @@
+Python Input
+    IN Python, inpput() functions read data from keyboard as string, irrespective of whether it is enclosed with quotes('' or "") or not.
+    
+    Taking input from keyboard at runtime
+        age=input("Enter your age:")
+        print("Your age =",age);
+        
+    input() fuction always returns a value of string type.
+    
+    TO convert the string value into integer type pythoon offers two functions
+    int() and float(). Both functions are
+    
+     A=input(“Enter First number : ”)
+     B=input(“Enter Second number : ”)
+     A=int(A)
+     B=int(B)
+     C=A+B
+     print(C);
+    We can also write the above program as
+     A=int(input(“Enter First number : ”))
+     B=int(input(“Enter Second number : ”))
+     C=A+B
+     print(C);

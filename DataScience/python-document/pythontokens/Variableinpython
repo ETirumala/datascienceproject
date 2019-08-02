@@ -1,0 +1,22 @@
+Variable in Python:
+    . A named labels whose values can be used and processed during prgram run are called variables
+        .  a =10                           Single Variable
+        .  a,b,c = 5,3.2, "Hello"          Multiple variable multiple values
+        .  x=y=z = "same"                  Multiple Variable having single value
+    
+   . In Python a variable is created when we first assign a value to it.
+   
+Python Output:
+    Printing a string
+        print("Hello World");
+    Printing Variable
+        a = 10
+        print(a);
+    Printing Multiple variables
+        a = 10
+        b = 20
+        c = 30
+        print("values of a,b and c =", a,b,c);
+        
+
+        
