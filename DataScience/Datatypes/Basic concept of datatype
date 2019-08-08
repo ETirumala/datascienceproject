@@ -46,7 +46,19 @@ DATATYPES:
                     
                3.Replaceing the word in the data
                      str.replace('ration','ure')
-                 outout: 'Lenovo configure'
+                     outout: 'Lenovo configure'
+               
+               4.cleanup the data and spliting with ',' and inserting into the list
+                     str1='test1,test2,test3'
+                     str1.split(',')
+               
+               5.Tuples : In tuples the values are assigned in form of set
+                   teacherdata = ('Reena', 'Rahul','Priya','Lavanya')
+                   print(teacherdata)
+                    
+               
+                   
+               ` 
                  
                 
                 
