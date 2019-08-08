@@ -28,6 +28,49 @@ PYTHON NUMBERS:
         Complex numbers are written in the form, x+yj, where x is the real part and y is the imaginary part.
             
             Examples:
-            a = 01478223697155593
+            b = 2147589654233
+            b
+            o/p:2147589654233
+            
+            c = 1.247589654485558
+            c
+            o/p: 1.247589654485558
+            
+            
+            d = 5+6j
+            d
+            (5+6j)
+            
+            
+PYTHON LIST:
+    It is one of the most used datatype in Python and isvery flexible.
+    All the items in alist do not be of the dame type.
+    Items are seprated by commas areenclosed within square brackets []
+    
+        Example:
+        a = [1,2.2,'python']
+        
+        a = [5,10,15.258,priya,24,30,tiru]
+        
+        We can use the slicing operator[] to extract an item or a range of items from a list. Index starts from 0 in Python.
+        
+        #a[1]
+        print("a[1]= ",a[1])
+        
+        o/p: a[1]=  10
+        
+        #a[3:5]
+        print("a[3:5] = ",a[3:6])
+        
+        o/p: a[3:5] =  ['priya', 24, 30]
+        
+        #a[0:]
+        print("a[0:] = ",a[0:])
+        
+        o/p:a[0:] =  [5, 10, 15.258, 'priya', 24, 30, 'tiru']
+        
+        
+        
+            
         
         
