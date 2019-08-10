@@ -68,10 +68,10 @@ IMMUTABLE DATATYPE:
         Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
         
         It is defined within parantheses() where items are seprated by commas.
-        
-        sp = (14785, 'You received this email to let you know about important changes to your Google Account and services.
-© 2019 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA' 2x+3y+90)
-        
+            Example:
+            sp = (14785, 'You received this email to let you know about important changes to your Google Account and services' 8+90j)
+            print(sp)
+            print("sp[1:] =", sp[1:])
         
         
         
@@ -104,7 +104,41 @@ MMUTABLE DATATYPE:
             o/p:a[0:] =  [5, 10, 15.258, 'priya', 24, 30, 'tiru']
             
 
-    
+    PYTHON DICTIONARIES:
+        Dicitonary is an unordered collection of key-value pairs
+        
+        It is generally used when we have a huge amount of data. 
+        Dictionaries are optimized for retrieving data.
+        we must know the key to retrieve the value.
+        
+        In python, Dictionaries are defined within braces {} with each item being a pair in the form of key:value. 
+        Key and Value can be of any type.
+            
+            Example:
+            
+            pm = {1:'this is my first dictionary created',2:25893324, 3:'nothing'}
+            print(type(pm))
+            print("pm[3] =", pm[3])
+            pm[3]='90+100j'
+            
+            output:
+            <class 'dict'>
+            pm[3] = nothing
+            pm[3] = 90+100j
+            
+            
+    PYTHON SET:
+        Set is an unordered collection of unique items.
+        Set is defined by values separated by comma inside brace{}.
+            
+            Example:
+            a = {4,5.5,8,9,75}
+            
+            #printing set variable a
+            print("a =", a)
+            print(type(a))
+            
+        
 
             
         
