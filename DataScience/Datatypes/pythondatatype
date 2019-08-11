@@ -137,6 +137,36 @@ MMUTABLE DATATYPE:
             #printing set variable a
             print("a =", a)
             print(type(a))
+         
+        It will combine two sets into one by using union, we use symbol for Union is "|". It will 
+        
+            Example:
+            b={142,4586,2548,7556,'sp','s'}
+            c={4758,4586,8523,'sp','priya'}
+            b|c
+            
+            O/p:
+            {142, 2548, 4586, 4758, 7556, 8523, 'priya', 's', 'sp'}
+            
+        Another method we canuse union
+            b.union(c)
+            
+        Intersection for set is used the word intersection("which means in two sets thw values appear in both the sets")
+            b.intersection(c)
+            o/p: 
+            {4586, 'sp'}
+            
+         To exrtact the data that the values are difference in set
+             b.difference(c)
+             o/p:
+             {142, 2548, 7556, 's'}
+            
+            
+            
+            
+            
+            
+            
             
         
 
