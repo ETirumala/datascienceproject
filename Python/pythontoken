@@ -1,0 +1,149 @@
+Python Token:
+    it is basic component of the source code. A character cateagorize in to four class of token they are
+        Keyword
+        Identifiers
+        LIterals
+        Operators
+    
+    KEYWORDS:
+    python keywords are special reserved words.
+    Each Keywords have a special meaning and a specific operation
+        True     Class       finally    is       return
+        False    continue    for        lambda   try
+        None     def         from       nonlocal while
+        and      del         global     not      with
+        as       elif        if         or       yield
+        assert   else        import     pass
+        break    except      in         raise
+         
+    Rules for keywords:
+        we cannot use a keyword as variable name, function name or any other identifier.
+        In python, Keywords are CASE SENSITIVE.
+        All the Keywords except TRUE FALSE NONE are in lowercase and they must be written as it is.
+        
+    Example for Keywords
+        
+        To Get the list of keywords of latest version by using below code
+        
+            import keyword
+            print (keyword.kwlist)
+            
+            output:
+            ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else',                'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise',                'return', 'try', 'while', 'with', 'yield']
+            
+        Description of Keywords
+        
+            TRUE AND FALSE:
+            
+                This keywords are truth values of Python. This keys are results of comparision operations or logical(Boolean) operations in 
+                python.
+                    For Example:
+                       
+                       1 == 1
+                       True
+                       
+                       5>3
+                       True
+                       
+                       10<=1
+                       False
+                       
+                       3>7
+                       False
+                       
+                       True or False
+                       True
+                       
+                       True and False
+                       False
+                       
+               True and False in python is same as 1 and 0 this can be followed example
+                       
+                       True == 1
+                       True
+                       
+                       True == 0
+                       False
+                       
+                       False == 1
+                       False
+                       
+                       False == 0
+                       True
+                       
+                       True + True 
+                       2
+                       
+                       True + False
+                       1
+                       
+                       False + True
+                       1
+                       
+                       False + FAlse
+                       0
+                
+                       
+            NONE :
+                None is a Constant in python that represents the absence of a value or a null value.
+                It is an object of its own datatype, the NoneType. We cannot create multiple None objects but can assign it to variables.                   These variables will be equal to one another.
+
+                We must take special care that None does not imply False, 0 or any empty list, dictionary, string etc. For example:
+                
+                None == 0
+                
+                None == 1
+                
+                None == False
+                
+                Output :
+                False
+                False
+                False
+                
+                x = none
+                y = none
+                x == y
+                
+     IDENTIFIRES(NAMES):
+        These Names are the Unique name that assign and used to identify a variable, function, class or and object. It helps differentiating
+        one entity from another.
+
+        Rules For Writing Identifiers
+
+            1.Identifiers can be a combination of letter in lowercase(a to z) or uppercase(A - Z) or digits(0-9) or an undersscore(_).
+                Example:
+                    Names like 
+                    myClass, var_1 and print_this_to_screen.
+
+            2.Keywords cannot be used as identifiers name.
+            3.Python is case sensitive.
+            4.We cannot use special symbols like !, @, #, $, % etc.in our identifier.
+            5.1st charchter can be (_)underscore but not be a digit
+            6.idenifier can be any lenght.               
+                
+        LITERALS: Constant used in python. Literals are a data Given in a variable called constant. There are four literals they are
+            String Literals
+            Numeric Literals
+            Boolean Literals
+            Special Literals
+            
+        String Literals: 
+            
+            Enclosing a text in the quotes.
+            both single and double quotes can be used.
+                
+                Example :
+                # String Literals
+                name = "Victory"
+                name = 'Victory'
+                
+                multine = '''this is example for 
+                multiline
+                block'''
+                print(multine)
+            
+        
+                
+        
+    

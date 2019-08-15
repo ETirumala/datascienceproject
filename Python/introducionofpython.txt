@@ -1,0 +1,46 @@
+PYTHON:
+    
+    Agenda For Python
+        Introduction To Python 3.0
+        Python Tokens
+        Data Types In Python
+        Flow Control
+        Function In Python
+        File Handling Using Python
+        
+INTRODUCTION TO PYTHON:
+    What is Python?
+        High Level Object Oriented programing Language.
+        Low compact and economical language to learn
+    
+    Who Created Python?
+        Guido van Rossam developed in 1991
+    
+    Features of Python
+        simple and easy
+        Career Opportunity
+        Large Open source Cmmunity
+        Reliable and Efficient
+        Extensive Library
+        
+    Python can beused in lot f places
+        Web Application
+            Django,Flask,Tornado
+        Desktop Appliction
+            PyGTK, Cocoa
+        Machine Learning, OS, Deep learning
+            sklearn,tensorflow,thaano,Spark
+        Cloud and Devops
+            Openstack APIs, Fabric
+        Hardware Programming 
+            Raspberry pi
+        
+            
+        
+        
+        
+        
+        
+    
+        
+        
