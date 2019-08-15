@@ -128,7 +128,7 @@ Python Token:
             Boolean Literals
             Special Literals
             
-        String Literals: 
+        STRING LITERALS: 
             
             Enclosing a text in the quotes.
             both single and double quotes can be used.
@@ -142,6 +142,185 @@ Python Token:
                 multiline
                 block'''
                 print(multine)
+                
+        NUMERICAL LITERALS:
+                
+            A Numerical Literal is a character string whose character selected from 0 to 9 
+            It consist of sign character, it can be +ve and -ve.
+            if the literal contains low decimal point it an integer
+            If too long and if we add "l" or "L" at end of the number so its a long Number
+            If literal contain decimal point is cntian float
+            
+            
+            In Python, value of an integer is not restricted by the number of bits and can explain to the limit of the available memory
+            
+           No special arrangement is required for stroing large numbers 
+          
+        Boolean Literals:
+            These Literals can have only two values they are
+            True
+            False
+            
+            True and False are also keywords so we cannot use as identifiers
+        
+        Special Literals:
+             python has one special literal : None
+             used to specify to the field that is not created
+
+    OPERATORS:
+          Operators have a specific task to perform. Operators are furtuher seegricated into 7 
+          
+          Arthmetic Operator
+          Assignment Operator
+          Comparison Operator
+          Logical Operator
+          Bitwise Operator
+          Identity Operator
+          Membership Operator
+          
+          
+          ARTHMETIC OPERATOR:
+              Arthmetic operators are used to perform arthmetic calculation. Takes two operand to preform operations on them.
+                  
+                  Operators:
+                  +, -,  *, /, %
+                  
+                  Example:
+                  1+2
+                  
+                  1-2
+                  
+                  2%1
+                  
+          ASSIGNMENT OPERATOR:
+              Assignment operator is used to assign a value to a variable.
+                  Operators:
+                  =, +=, -=, *=
+                  
+                  Example:
+                  
+                    var = 10
+                    var+=10 # var= var+10
+                    print(var)
+                    var -= 10
+                    print(var)
+                    var *= 10
+                    print(var)
+                    var == 10
+                    print(var) 
+        
+         COMPARISON OPERATOR:
+             Comparison operator is used to compare two values and it returns true or false as output
+             Operators:
+             <, >, <=, >=, !=
+             
+             Example:
+             a = 10
+             b = 10
+             a>b
+             
+                 
+         LOGICAL OPERATOR:
+             Logical Operator is used to performs logical operation and returns true or false as output.
+             
+             Operators:
+             and, or , not
+             
+             Example:
+             a =10<10 and 2>-1 # this summerized as false and true so the o/p will 
+
+             print(a)#because the o/p will dived ad true true----true, true, flse, ---- false,
+             #false true --------false, false false ----------true
+             o /p:false
+            
+         BITWISE OPERATOR:
+             Bitwise Operator is usedto perform bitwise calculation
+             Operators:
+             &(and), |(or), <<(left shift), >>(right Shfit), ~(not)
+             
+             Example:
+             7 | 5
+             converting into binary form and calculated
+             the binary form of 7
+             111
+             the binary form of 5
+             101
+             or operator will add the binarycodes
+             
+             111
+             101
+             ---
+             111---- which is 7
+             and operaator
+             7&5
+             111
+             101
+             ----
+             101------which is 5
+             
+             ~ which is not operator
+             7 - 0111
+             ~7 = -1000 (0 will convert into 1 and will convert into 0)
+                = -8   
+                
+             >> operator
+             10 >> 2 
+             10 : 1010
+                  0010 output is 2 (here the 2 bits will remove from the right so the output is 2)  
+                  
+              << operator
+              10 << 2
+              10 : 1010
+                   101000 output is 40 (here the 2 bits are added in the left so the output is 40)
+                
+         Identity Operator:
+             Identity Operator is used to test if the two opernds share an Identity
+             
+             operators :
+             is, is not.
+             
+             Examples:
+             x is 10
+             o/p: true
+             
+             x is not 10
+             o/p: false
+             
+             
+         Membership Operators:    
+              it is used to test whether a value is a member of a sequence
+              
+              Operators
+              
+              in, not in 
+              
+              Examples:
+              pets = ['dog','cat','wolf]
+              'lion' in pets
+              
+              False
+              'wolf' in pets
+              true
+              
+              
+              
+                 
+          
+            
+            
+           
+             
+             
+            
+            
+            
+            
+            
+               
+                
+            
+            
+                
             
         
                 

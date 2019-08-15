@@ -19,11 +19,11 @@ INTRODUCTION TO PYTHON:
     Features of Python
         simple and easy
         Career Opportunity
-        Large Open source Cmmunity
+        Large Open source Community
         Reliable and Efficient
         Extensive Library
         
-    Python can beused in lot f places
+    Python can be used in lot f places
         Web Application
             Django,Flask,Tornado
         Desktop Appliction
