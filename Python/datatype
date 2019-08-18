@@ -1,0 +1,258 @@
+DATATYPES IN PYTHON:
+    Python has two datatypes they are IMMUTABLE DATATYPE and MUTABLE DATATYPE
+    IMMUTABLE DATATYPE:
+        immutable datatype are those datatypes which cannot be modified or changed. immutable datatype consists of 
+            Number
+            Strings
+            Tuples
+            
+            NUMBERS: As we know python has four different types numerical literals they are INT, LONGINT, FLOAT, COMPLEX. Python would automaticaly convert number one type to another type. if yoou want convert datatype use INT FUNCTON, LOGINT FUNCTION, FLOAT FUNCTION, COMPLEX FUNCTION.
+                Example:
+                   #How to find datatype of a variable.
+                    a = 10
+                    name = 'jony'
+                    salary = 2583.25
+                    print(type(a))
+                    print(type(name))
+                    print(type(salary))
+                    
+                    o/p:
+                    <class 'int'>
+                    <class 'str'>
+                    <class 'float'>
+                   
+            STRINGS: Anything which is written in single and double quotes are know to be STRINGS.
+                Example:
+                    #in string for finding the charcters using index method we have to give the values within the sqaure brackets
+                     str1="This is string variable to note done"
+                     str2='Never clear'
+                     print(str1[0])
+                     print(str2[-1])
+
+                     o/p:
+                     T
+                     r
+                     
+                     #HOw to extract this from the str1
+                      print(str1[0:5])
+                     o/p:
+                     This 
+                     
+                     #Let Us do some operations using string
+                     find() Function:Returns the position of the string
+                         Example:
+                         str ="operations"
+                         str.find('ra')
+                         
+                     #replace() Function: it is used to replaces one character/string with other.
+                         Example:
+                         str = "operations"
+                         str.replace('tions','ting')
+                         
+                     #split Function:This function is used to create on the basis of a character
+                     Example:
+                     str = "arrangment, arraging, arrange"
+                     str.split(',')
+                     
+                     #count() FUncction: This function gives the charater count in the string
+                     Example:
+                     str = "opertation"
+                     str.count('o')
+                     
+                     o/p: 2
+                     
+                     #upper() Functoin: This function will converts the character/string to uppercase
+                         
+                     Example:
+                     str = "operation"
+                     str.upper()
+                     
+                     o/p: OPERATION
+                     
+                     #max()/Min() Function: Returns themax or min value (ASCII)
+                     
+                     Example:
+                     str = '@#$sgrstse234df#'
+                     max(sttr)
+                     min(str)
+            TUPLES: Tuples are a group of values within() 
+                
+                Example :
+                    mygroup = ('a', 'b', 'c', 'd')
+                
+                     Lets work on some operations on tuples:
+                     #Concatenation function : it is used Adds two or more string/character
+                     Example:
+                     mygroup1 +=('e', 'f', 'g', 'h')
+                     print(mygroup)
+                     
+                     #Repetation Function: This function is used to duplicate the string/character for a given no of times.
+                     
+                     Example:
+                     #cncatinating the string in tuples within ()
+                      mytuple = ('a','b','c','d')
+                      mytuple1 = ('e','f','g','h')
+                      mytuple += mytuple1
+                      print(mytuple)
+                      
+                      o/p: ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+                      mytuple*4
+                        ('a',
+                         'b',
+                         'c',
+                         'd',
+                         'e',
+                         'f',
+                         'g',
+                         'h',
+                         'a',
+                         'b',
+                         'c',
+                         'd',
+                         'e',
+                         'f',
+                         'g',
+                         'h',
+                         'a',
+                         'b',
+                         'c',
+                         'd',
+                         'e',
+                         'f',
+                         'g',
+                         'h',
+                         'a',
+                         'b',
+                         'c',
+                         'd',
+                         'e',
+                         'f',
+                         'g',
+                         'h')
+                     #indexing : It is used to show the indexed postion of character / string given in tuple
+                     Example:
+                     mytuple[1]
+                     o/p: 'b'
+                     mytuple[0:8]
+                     o/p:('a', 'b', 'c', 'd', 'e', 'f', 'g','h')
+                     
+                     #slicing:Slicing shows a specific set of indexed character /string
+                     mytuple = ('a', 'b', 'c', 'd', 'e', 'f', 'g','h')
+                     Example:
+                     mytuple =('a','b','c','d','e','f','g')
+                     mytuple[1:5]
+                    
+                                 
+    MUTABLE DATATYPE:
+        mutable datatype are those datatypes which can be change. this datatype consists of
+            
+            LISTS : List is the sequence mutable python datatype which is define within the [], since they are mutable they can be easly changed.
+                Example:
+                    #lets us do some operations
+                    mylist = [1, 9,547,'salary data']
+                    
+                    Concatination: It is used to add elements in the list
+                    
+                    Example:
+                    #list
+                     mylist = ['a',2,2.5,5.69,'salary data']
+                     mylist1 = ['python','20','1254.25']
+                     mylist += mylist1
+                     print(mylist)
+                     
+                     #Repetation: it is used to multiply by n numbeer of times of list
+                     mylist = ['a',2,2.5,5.69,'salary data']
+                     mylist*3
+                     
+                     #Slicing: if u want to specfic portion ofa list we can mention the starting index point to end index point +1
+                     Example:
+                     mylist = ['a',2,2.5,5.69,'salary data']
+                     mylist = [1:4]
+                     
+                     #APPEND: Adding any value to a list is know to be appending
+                     Example :
+                     mylist.append("14587")
+                     
+                     #extend(list):it is used to cancatinate to different string
+                     Example:
+                     mylist1=['c','d']
+                     mylist.append(mylist1)
+                     print(mylist)
+                     o/p: ['a', 2, 2.5, 5.69, 'salary data', ['c', 'd']]
+                     
+                     #insert function: it is using index number you can specify any value between the list.
+                     Example:
+                     #i want to inseret a number before 5.69
+                     mylist.insert(3, 78.56)
+                     
+                     #Dictionaries: A group of values within{}, while defining the elements in a dictionary we have a 2 values key and its value or we define index for each element.
+                     Example:
+                     mydic ={1:'jony', 2:547893, 3:'yahoo'}
+                     
+                         #Lets explore some operations vafrious using dictionary
+                         #Empty Ditionaries: no elements in the curly braces will be the empty dictionary.
+                         Example:
+                         mydict = {}
+                         
+                         #integer keys: dictionary with integer keys
+                         mydict= {1:'apple', 2:'balls'}
+                         
+                         #MIxed Keys: dictionary with mixed keys
+                         mydict = {'name':'jony', 1:[5,86,21]}
+                         
+                         #Pairing : sequence having each item as a pair
+                         mydict =dict([(1,'apple'),(2,'ball')])
+                         
+                         #accessing Dictionary:
+                         #accessing ditionary
+                         mydict = {1:'world1', 2:'world2'}
+                         mydict[2]
+                         
+                         #Using the Length function: Finding the lenght of the dictionary
+                         Example:
+                         mydict = {1:'world1', 2:'world2'}
+                         len(mydict)
+                         
+                         #Using Key Funtion: Finding the key of the dictionary
+                         mydict = {1:'world1', 2:'world2'}
+                         mydict.key()
+                         o/p:[1:2]
+                         
+                         #Using Value Function: it is used to return all the values in the dictionary.
+                         mydict = {1:'world1', 2:'world2'}
+                         mydict.value().
+                                        
+                        
+                     #Sets:Sets are the unordered collection of items within{}, items are defined with in opening and closeing curly bracies. and we have to not define key value in it. if  you are adding elements in your set every element in the set is unique.
+                     Example:
+                     myset ={1,2,3}
+                     # lets perform some operations using set
+                     # Creating Sets
+                     myset={1,5,8}
+                     print(myset)
+                     
+                     #union:Return the common value from both the set.
+                     Example
+                     myset = {1,2,3, 'a'}
+                     myset1 ={'a'4,5,1}
+                     myset | myset1
+                     {1,2,3,'a',4,5}
+                     
+                     #intersection: it used return the common result of two sets
+                     myset & myset1
+                     {1,a}
+                     
+                     #difference:it will permit all the common value and return the only value which is unique and difference.
+                     
+                     Example:
+                     myset = {1,2,3, 'a'}
+                     myset1 ={'a'4,5,1}
+                     myset - myset1
+                     {2,3}
+                     
+                     
+              
+    
+    
+    
+    
